@@ -7,9 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.navigationexamples.ui.navigationLandingScreens.NavigationLandingMain
 import com.example.navigationexamples.ui.navigationScreens.EntryProvider
 import com.example.navigationexamples.ui.navigationScreens.EntryProviderDsl
+import com.example.navigationexamples.ui.navigationScreens.OnBackParameter
 import com.example.navigationexamples.ui.theme.NavigationExamplesTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +23,8 @@ class MainActivity : ComponentActivity() {
                 }
                 */
                 //EntryProvider()
-                EntryProviderDsl()
+                //EntryProviderDsl()
+                OnBackParameter()
             }
         }
     }
