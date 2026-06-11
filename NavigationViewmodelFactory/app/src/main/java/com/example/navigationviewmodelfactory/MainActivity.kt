@@ -20,9 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NavigationViewmodelFactoryTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Screen1(modifier = Modifier.padding(innerPadding))
-                }
+               Navigation()
             }
         }
     }

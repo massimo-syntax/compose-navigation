@@ -11,17 +11,14 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 
 @Composable
 fun Screen1(
-    modifier: Modifier = Modifier,
     viewModel: Screen1ViewModel = viewModel()
-){
+) {
 
     val screenState by viewModel.screenState.collectAsStateWithLifecycle()
     Column(
-        modifier.fillMaxSize()
+        Modifier.fillMaxSize()
     ) {
-
-        Text(screenState.data)
+        Text("Screen 1")
 
     }
-
 }
