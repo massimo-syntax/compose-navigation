@@ -1,4 +1,4 @@
-package com.example.navigationviewmodelfactory.presentation.ui.screens
+package com.example.navigationviewmodelfactory.presentation.ui.screens.screen1
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -22,8 +22,9 @@ class Screen1ViewModel(
         }
     }
 
-
 }
+
+
 
 data class UiState(
     val data: String = "initial data state"

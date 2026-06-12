@@ -8,14 +8,14 @@ import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDe
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import com.example.navigationviewmodelfactory.presentation.ui.screens.Screen0
-import com.example.navigationviewmodelfactory.presentation.ui.screens.Screen1
-import com.example.navigationviewmodelfactory.presentation.ui.screens.Screen1ViewModel
+import com.example.navigationviewmodelfactory.presentation.ui.screens.screen0.HomeScreen
+import com.example.navigationviewmodelfactory.presentation.ui.screens.screen1.Screen1
+import com.example.navigationviewmodelfactory.presentation.ui.screens.screen1.Screen1ViewModel
 
-
-data class Route1(val id: String)
 
 data object Route0
+data class Route1(val id: String)
+
 
 @Composable
 fun Navigation(){
@@ -35,8 +35,8 @@ fun Navigation(){
         ),
         entryProvider = entryProvider {
             entry<Route0> {
-                    Screen0(
-                        onNavigate = {backStack.add(Route1("1234"))}
+                    HomeScreen(
+                        onNavigate = { id -> backStack.add(Route1(id)) }
                     )
 
             }
@@ -49,7 +49,11 @@ fun Navigation(){
                 //
                 // tl;dr: Make sure you use rememberViewModelStoreNavEntryDecorator()
                 // if you want a new ViewModel for each new navigation key instance.
-                Screen1(viewModel = viewModel(factory = Screen1ViewModel.Factory(key)))
+                Screen1(
+                    viewModel = viewModel(factory = Screen1ViewModel.Factory(key)),
+                    onNavigateBack = {backStack.removeLastOrNull()}
+
+                )
             }
         }
     )
