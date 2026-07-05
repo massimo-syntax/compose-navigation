@@ -18,4 +18,8 @@ class MyRepositoryImpl : MyRepository {
         emit(myData)
     }
 
+    override fun loadDataFromId(id: Int): MyRepositoryModel {
+        return myData[id]
+    }
+
 }

@@ -24,6 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "NavigationModularization"
 include(":app")
-include(":feature:list")
-include(":feature:detail")
 include(":data")
+

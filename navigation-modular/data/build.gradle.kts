@@ -4,11 +4,8 @@ plugins {
 
 android {
     namespace = "com.example.data"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = libs.versions.compileSdk.get().toInt()
+
 
     defaultConfig {
         minSdk = 24
