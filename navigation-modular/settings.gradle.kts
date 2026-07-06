@@ -26,3 +26,9 @@ rootProject.name = "NavigationModularization"
 include(":app")
 include(":data")
 
+include(":feature:list:ui")
+include(":feature:list:impl")
+include(":feature:list:api")
+include(":feature:detail:ui")
+include(":feature:detail:api")
+include(":feature:detail:impl")
