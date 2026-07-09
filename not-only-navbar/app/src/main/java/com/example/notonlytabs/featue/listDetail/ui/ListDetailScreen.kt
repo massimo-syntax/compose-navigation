@@ -7,29 +7,29 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import kotlin.random.Random
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+
 
 @Composable
 fun ListDetailScreen(
     id: Int,
+    viewModel: ListDetailViewModel,
     onBack: ()->Unit
 ){
-    var number by remember { mutableIntStateOf(0) }
+    val number by viewModel.screenState.collectAsStateWithLifecycle()
 
     Column(
         Modifier.padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text("Detail id: $id")
+        Text("or, key from viewmodel: ${viewModel.key}")
 
         Text(number.toString())
-        Button( onClick = { number+= Random.nextInt(-10,10) } ) {
+        Button( onClick = { viewModel.newInt() } ) {
             Text("+", fontSize = 24.sp)
         }
 

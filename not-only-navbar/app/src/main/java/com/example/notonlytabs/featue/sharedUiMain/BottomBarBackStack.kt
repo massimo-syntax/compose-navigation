@@ -14,21 +14,31 @@ class BottomBarBackStack<T : Any>(private val startKey: T) {
     fun switchTab(key:T){
         backStack.apply {
             if(size > 1){
-                if(key == startKey){
+                if(key == startKey)
                     removeLastOrNull()
-                    selectedKey = key
-                }
-                else{
+                else
                     this[1] = key
-                    selectedKey = key
-                }
             }else{
-                if(key != startKey){
+                if(key != startKey)
                     add(key)
-                    selectedKey = key
-                }
             }
         }
+        selectedKey = key
+    }
+
+    // same with easier code
+    fun tabSwitch(key:T){
+        backStack.apply {
+            if(key == startKey){
+                clear()
+                add(key)
+            }else{
+                clear()
+                add(startKey)
+                add(key)
+            }
+        }
+        selectedKey = key
     }
 
     fun back(){

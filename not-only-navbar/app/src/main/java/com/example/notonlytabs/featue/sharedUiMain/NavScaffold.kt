@@ -20,6 +20,7 @@ import com.example.notonlytabs.featue.sharedUiMain.apiNavKeys.Home
 import com.example.notonlytabs.featue.sharedUiMain.apiNavKeys.ListScreen
 import com.example.notonlytabs.featue.sharedUiMain.apiNavKeys.Profile
 import com.example.notonlytabs.featue.sharedUiMain.apiNavKeys.TOP_LEVEL_ROUTES
+import com.example.notonlytabs.featue.sharedUiMain.ui.ProfileScreen
 import com.example.notonlytabs.navigation.Nav3ViewModel
 
 
@@ -31,6 +32,7 @@ fun Tabs(
     val topLevelBackStack by nav3ViewModel.bottomBarBackStack
 
     Scaffold(
+        contentWindowInsets = WindowInsets(0, 0, 0, 0),
         bottomBar = {
             NavigationBar {
                 TOP_LEVEL_ROUTES.forEach { topLevelRoute ->
@@ -64,7 +66,7 @@ fun Tabs(
                     }
                 }
                 entry<Profile> {
-                    Text("Profile screen")
+                    ProfileScreen()
                 }
                 // Important: ListDetail is in the main NavDisplay
             },
