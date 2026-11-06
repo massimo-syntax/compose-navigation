@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/animator/fragment_fade_enter.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-fragment-1.5.1-48:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/animator/fragment_close_exit.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-fragment-1.5.1-48:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/animator/fragment_fade_exit.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-fragment-1.5.1-48:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/animator/fragment_open_exit.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-fragment-1.5.1-48:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/animator/fragment_open_enter.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-fragment-1.5.1-48:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/animator/fragment_close_enter.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-fragment-1.5.1-48:/animator/fragment_close_enter.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/color/vector_tint_theme_color.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-ui-22:/color/vector_tint_theme_color.xml"
+    },
+    {
+        "merged": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/color/vector_tint_color.xml",
+        "source": "com.example.nestednavigationsubtabdeeplinks.navigation-ui-22:/color/vector_tint_color.xml"
+    }
+]

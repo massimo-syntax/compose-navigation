@@ -1,0 +1,9 @@
+com.example.nestednavigationsubtabdeeplinks.navigation-pngs-0 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/build/generated/res/pngs/release
+com.example.nestednavigationsubtabdeeplinks.navigation-updated_navigation_xml-1 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/build/generated/updated_navigation_xml/release
+com.example.nestednavigationsubtabdeeplinks.navigation-mergeReleaseResources-2 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.nestednavigationsubtabdeeplinks.navigation-mergeReleaseResources-3 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.nestednavigationsubtabdeeplinks.navigation-release-4 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/build/intermediates/merged_res/release/mergeReleaseResources
+com.example.nestednavigationsubtabdeeplinks.navigation-release-5 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/build/intermediates/packaged_res/release/packageReleaseResources
+com.example.nestednavigationsubtabdeeplinks.navigation-main-6 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/src/main/res
+com.example.nestednavigationsubtabdeeplinks.navigation-release-7 /home/name/Desktop/compose-navigation/nested-navs-bottombar-subtabs-deeplinks-ownbackstacks/navigation/src/release/res
+gradleHome-0 /root/.gradle

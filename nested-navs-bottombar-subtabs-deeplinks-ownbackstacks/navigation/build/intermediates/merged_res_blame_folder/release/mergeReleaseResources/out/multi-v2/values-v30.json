@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.nestednavigationsubtabdeeplinks.navigation-mergeReleaseResources-11:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/root/.gradle/caches/9.6.0/transforms/e1fc1aa75e3294ddb4ff4e9399c5db33/transformed/material3/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.nestednavigationsubtabdeeplinks.navigation-release-13:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/root/.gradle/caches/9.6.0/transforms/e1fc1aa75e3294ddb4ff4e9399c5db33/transformed/material3/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

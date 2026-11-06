@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.example.nestednavigationsubtabdeeplinks.feature.home.impl.HomeViewModel
